@@ -1,0 +1,9 @@
+{
+  "name": "etsy-adblock",
+  "version": "1.0.0",
+  "description": "Remove annoying native advertisements from etsy listings",
+  "main": "index.js",
+  "repository": "https://github.com/moodysalem/etsy-adblock.git",
+  "author": "moodysalem <a454465c8beef70811a01489042c79b7f235df5e>",
+  "license": "MIT"
+}

@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Etsy AdBlock",
+  "version": "1.0",
+  "description": "Remove annoying native advertisements from Etsy listing pages",
+  "author": "Moody Salem",
+  "permissions": [
+    "https://www.etsy.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.etsy.com/*"
+      ],
+      "js": [
+        "remove-ads.js"
+      ]
+    }
+  ]
+}
