@@ -1,4 +1,4 @@
-var ads = document.getElementsByClassName('ad-indicator');
+var ads = document.getElementsByClassName('ad-iindicator');
 
 // Polyfill Element.prototype.matches
 if (!Element.prototype.matches) {
@@ -28,7 +28,7 @@ var containers = [],
   container;
 
 for (var i = 0; i < ads.length; i++) {
-  container = closestMatching('.block-grid-item', ads[ i ]);
+  container = closestMatching('ul > li', ads[ i ]);
   if (container) {
     containers.push(container);
   }
